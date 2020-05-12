@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "webpack src/index.js -o public/build.js",
     "build": "webpack src/index.js -o build.js",
     "watch": "npm run build -- -w --mode='development'"
   },
