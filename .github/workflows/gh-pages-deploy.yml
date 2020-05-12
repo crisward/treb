@@ -15,7 +15,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install
-          npm run deploy
+          npm run build
           cp index.html public/index.html
 
       - name: Deploy 🚀
