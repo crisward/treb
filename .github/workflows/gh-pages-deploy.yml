@@ -17,7 +17,8 @@ jobs:
           npm install
           npm run build
           mkdir public
-          cp build/index.js public/index.js
+          mkdir public/build
+          cp build/index.js public/build/index.js
           cp index.html public/index.html
 
       - name: Deploy 🚀
