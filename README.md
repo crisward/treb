@@ -14,3 +14,13 @@ npm install
 npm run build 
 open index.html
 ```
+
+## Updating...
+
+All the code is in src/index.js 
+
+To update the build as you change the src just run
+
+```
+npm run watch
+```
