@@ -87,8 +87,6 @@ function createTreb(){
 
 createTreb()
 
-
-
 // button
 document.querySelector("#replay").addEventListener("click",function(){
   World.clear(engine.world);
@@ -96,4 +94,5 @@ document.querySelector("#replay").addEventListener("click",function(){
   Render.stop(render);
   Runner.stop(runner)
   createTreb()
+  console.log("updating")
 })
