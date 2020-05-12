@@ -94,5 +94,5 @@ document.querySelector("#replay").addEventListener("click",function(){
   Render.stop(render);
   Runner.stop(runner)
   createTreb()
-  console.log("updating")
+  console.log("updating 2")
 })
