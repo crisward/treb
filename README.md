@@ -2,6 +2,9 @@
 
 A trebuchet simulation using matter-js
 
+## Demo
+
+See - https://crisward.github.io/treb/
 
 ## Build Instructions
 
